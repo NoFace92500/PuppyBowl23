@@ -1,1 +1,45 @@
+/* body{
+    background-image: url('https://images7.alphacoders.com/860/860387.jpg')
+} */
+h1{
+    border: dotted  blue 6px;
+    text-align: center;
+    
+}
+label{
+    color: blue;
+}
+form{
+    border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  div#all-players-container {
 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    /* add padding and margin to cards */
+
+    /* add flex or grid to cards */
+    width: 30%;
+    margin: .5em;
+    padding: 1.5em;
+
+    border: .2em solid;
+    border-radius: 25px;
+
+    box-shadow: .6em .6em .6em -.6em rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+  }
